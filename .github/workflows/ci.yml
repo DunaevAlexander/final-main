@@ -58,7 +58,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ВАШ_ЛОГИН_DOCKERHUB/final-main
+          images: enklavz/final-main
           tags: |
             type=ref,event=tag
 
